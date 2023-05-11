@@ -16,7 +16,7 @@ export const FetchRariableNfts: FC = () => {
     const getNftData = async () => {
         const response = await fetch(
             
-            " https://api.rarible.org/v0.1/items/byCollection?collection=SOLANA:DSwfRF1jhhu6HpSuzaig1G19kzP73PfLZBPLofkw6fLD"
+            " https://api.rarible.org/v0.1/items/byCollection?collection=audi0"
         );
         const data = await response.json();
         setNfts(data.items);
