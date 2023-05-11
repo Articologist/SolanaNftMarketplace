@@ -10,7 +10,8 @@ import useUserSOLBalanceStore from "../../stores/useUserSOLBalanceStore"
 import styles from "../../styles/custom.module.css"
 import Typewriter from "typewriter-effect";
 import Infinite from "./infinite-loader.gif";
-import IntroNft from "../../../public/nft-free-depositphotos-bgremover.pn";
+import IntroNft from "../../../public/Audocs-banner-ylw.png
+";
 
 
 
