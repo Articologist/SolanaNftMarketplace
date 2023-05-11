@@ -8,10 +8,10 @@ const Home: NextPage = (props) => {
   return (
     <div>
       <Head>
-        <title>NFT Marketplace</title>
+        <title>Audio Documents</title>
         <meta
           name="description"
-          content="NFT Marketplace"
+          content="Audocs NFT Marketplace"
         />
       </Head>
       <HomeView />
