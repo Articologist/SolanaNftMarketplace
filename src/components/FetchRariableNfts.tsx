@@ -16,7 +16,7 @@ export const FetchRariableNfts: FC = () => {
     const getNftData = async () => {
         const response = await fetch(
             
-            " https://api.rarible.org/v0.1/items/byCollection?collection=audi0"
+            " https://api.rarible.org/v0.1/items/byCollection?collection=ETHEREUM:0xFA5b602B211D4CB638254920fD6A79A5C8A7C7Cb"
         );
         const data = await response.json();
         setNfts(data.items);
