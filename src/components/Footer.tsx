@@ -7,7 +7,7 @@ export const Footer: FC = () => {
         <div className="">
             <footer className="mx-auto  flex flex-row p-2 text-center items-center footer bg-neutral text-neutral-content">
                 <div className="pl-2">
-                    <img src={SolLogo.src} width="50px" height="50px" className={styles.sologo}/>
+                    <img src={SolLogo.src} width="25px" height="25px" className={styles.sologo}/>
                                       </div>
                 <div className="max-w-md mx-auto sm:pl-12 grid-flow-col gap-4 text-center">
                     <a>
