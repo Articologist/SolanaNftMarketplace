@@ -31,7 +31,7 @@ export const HomeView: FC = ({ }) => {
 
   return (
     <div className={styles.container}>
-      <img src={IntroNft.src} alt="" className={styles.intronft} />
+      <img src={IntroNft.src} width="100%" className={styles.intronft} />
       <div className={styles.centered}>
         <div className="md:hero mx-auto p-4">
           <div className="md:hero-content flex flex-col">
