@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import styles from "../styles/custom.module.css"
-import SolLogo from "../../public/nft4.png"
+import SolLogo from "../../public/audocs-label-logo-2014-open.png"
 
 export const Footer: FC = () => {
     return (
