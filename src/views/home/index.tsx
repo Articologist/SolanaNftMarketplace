@@ -40,7 +40,7 @@ export const HomeView: FC = ({ }) => {
                 <Typewriter
                   options={{
                     autoStart: true,
-                    loop: true,
+                    loop: false,
                   }}
                   onInit={(typewriter) => {
                     typewriter
@@ -56,7 +56,7 @@ export const HomeView: FC = ({ }) => {
               </span>
             </h1>
             <div className={styles.infinite}>
-              <img src={Infinite.src} alt="" className={styles.infinite} />
+             <!-- <img src={Infinite.src} alt="" className={styles.infinite} /> -->
             </div>
             <Link
               href={{
