@@ -64,10 +64,10 @@ export const AppBar: FC = (props) => {
 
         {/* Wallet & Settings */}
         <div className="navbar-end">
-          <WalletMultiButton className="btn btn-ghost mr-4" />
+          <WalletMultiButton className="text-white btn-dark btn btn-ghost mr-4" />
 
           <div className="dropdown dropdown-end">
-            <div tabIndex={0} className="btn btn-square btn-ghost text-right">
+            <div tabIndex={0} className="text-black btn-dark btn btn-square btn-ghost text-right">
               <svg
                 className="w-6 h-6"
                 xmlns="http://www.w3.org/2000/svg"
