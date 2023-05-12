@@ -32,7 +32,7 @@ export const AppBar: FC = (props) => {
           {/* <img src={SolLogo.src} width="50px" className={styles.sologo1}/> */}
           <div className="hidden sm:inline w-22 h-22 md:p-2">
            
-                      <img src="https://www.audiodocuments.com/ws/media-library/916ae0cd8d964918a36cbf0671257b36/audiodocs-logo22.jpg" width="50px" className=""/>
+                      <img src="../../public/044ED15B-68B2-4D5F-AC32-54CD1926C9C0.jpg" width="50px" className=""/>
 
         
           </div>
