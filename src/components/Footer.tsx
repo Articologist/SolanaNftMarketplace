@@ -38,14 +38,14 @@ export const Footer: FC = () => {
                 </div>
                 <div className="grid-flow-col gap-4 text-center pr-2">
                     <div>
-                        <p className="text-white text-base font-light cursor-default ">
+                        <p className="text-black text-base font-light cursor-default ">
                             Powered by
                         </p>
                         <a
                             rel="noreferrer"
                             href="https://www.audocs.com/"
                             target="_blank"
-                            className="text-white text-base font-bold hover:text-primary-dark transition-all duration-200"
+                            className="text-black text-base font-bold hover:text-primary-dark transition-all duration-200"
                         >
                             Audocs
                         </a>
