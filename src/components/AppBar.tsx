@@ -3,7 +3,7 @@ import Link from "next/link"
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui"
 import { useAutoConnect } from "../contexts/AutoConnectProvider"
 import NetworkSwitcher from "./NetworkSwitcher"
-/* import SolLogo from "../../public/audocs-label-logo-2014-open.png" */
+import SolLogo from "../../public/044ED15B-68B2-4D5F-AC32-54CD1926C9C0.jpg"
 import styles from "../styles/custom.module.css"
 
 export const AppBar: FC = (props) => {
@@ -29,13 +29,13 @@ export const AppBar: FC = (props) => {
               ></path>
             </svg>
           </label>
-          {/* <img src={SolLogo.src} width="50px" className={styles.sologo1}/> */}
-          <div className="hidden sm:inline w-22 h-22 md:p-2">
+           <img src={SolLogo.src} width="50px" className={styles.sologo1}/>
+        {/*   <div className="hidden sm:inline w-22 h-22 md:p-2">
            
                       <img src="../../public/044ED15B-68B2-4D5F-AC32-54CD1926C9C0.jpg" width="50px" className=""/>
 
         
-          </div>
+          </div> */}
         </div>
 
         {/* Nav Links */}
