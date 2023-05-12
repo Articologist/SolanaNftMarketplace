@@ -78,10 +78,10 @@ export const FetchRariableNfts: FC = () => {
                                             <div className={styles.nftinfoname}> {nft?.blockchain}  </div>
 
                                         </div>
-                                    </div> */}
+                                    </div>
                                     
 
-                                </div>
+                                </div> */}
                                
 
                             </div>
