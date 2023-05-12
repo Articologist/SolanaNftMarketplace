@@ -42,7 +42,7 @@ export const AppBar: FC = (props) => {
         <div className="hidden md:inline md:navbar-center">
           <div className="flex items-stretch">
             <Link href="/">
-              <a className="btn btn-ghost btn-sm rounded-btn">Home</a>
+              <a className="text-black btn btn-ghost btn-sm rounded-btn">Home</a>
             </Link>
            {/* <Link href="/checkwallet">
               <a className="btn btn-ghost btn-sm rounded-btn">Check Wallet</a>
@@ -51,7 +51,7 @@ export const AppBar: FC = (props) => {
               <a className="btn btn-ghost btn-sm rounded-btn">Display NFT</a>
             </Link> */}
             <Link href="/explore">
-              <a className="btn btn-ghost btn-sm rounded-btn">Explore</a>
+              <a className="text-black btn btn-ghost btn-sm rounded-btn">Explore</a>
             </Link>
             {/* <Link href="/candymachine">
               <a className="btn btn-ghost btn-sm rounded-btn">Candy Machine</a>
