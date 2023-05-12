@@ -55,9 +55,7 @@ export const HomeView: FC = ({ }) => {
                 />
               </span>
             </h1>
-            <div className={styles.infinite}>
-             <!-- <img src={Infinite.src} alt="" className={styles.infinite} /> -->
-            </div>
+
             <Link
               href={{
                 pathname: '/explore',
