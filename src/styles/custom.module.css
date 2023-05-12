@@ -36,12 +36,12 @@
 .nftinfoname{
   /* font-size: 18px;
   font-weight: 400;
-  color: aqua;
+  color: white;
   display: end;
   padding-top: 0.5rem; */
   font-size: 14px;
   font-weight: bold;
-  background: linear-gradient(-45deg, #a80a66, #07c6df, #e2084a);
+   /* background: linear-gradient(-45deg, #a80a66, #07c6df, #e2084a); */
   background-clip: text;
   -webkit-text-stroke: 4px transparent;
   -webkit-text-fill-color: black;
