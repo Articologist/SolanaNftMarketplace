@@ -34,11 +34,11 @@ img {
   --tw-bg-opacity: 1;
   /* background-color: hsla(var(--n) / var(--tw-bg-opacity)); */
   background: #ffffff;
-background: linear-gradient(90deg, rgba(44,3,94,1) 0%, rgba(196,49,12,1) 55%, rgb(51, 102, 153) 100%);
+background: linear-gradient(90deg, rgba(44,3,94,1) 0%, rgb(255, 255, 255) 55%, rgb(51, 102, 153) 100%);
 }
 .bg-base-100 {
   --tw-bg-opacity: 1;
   background: #ffffff;
-background: linear-gradient(90deg, rgba(44,3,94,1) 0%, rgba(196,49,12,1) 55%, rgb(51, 102, 153) 100%);
+background: linear-gradient(90deg, rgba(44,3,94,1) 0%, rgb(255, 255, 255) 55%, rgb(51, 102, 153) 100%);
 }
 
