@@ -16,7 +16,7 @@ body {
 }
 
 a {
-  color: #336699;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -28,13 +28,9 @@ a {
 /* example: override wallet button style */
 .wallet-adapter-button:not([disabled]):hover {
   background-color: #707070;
-
+  color: #707070;
 }
 
-.wallet-adapter-button: {
-  background-color: #707070;
-
-}
 
 img {
   width: 250px;
