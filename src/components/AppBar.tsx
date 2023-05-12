@@ -29,7 +29,7 @@ export const AppBar: FC = (props) => {
               ></path>
             </svg>
           </label>
-           <img src={SolLogo.src} width="100px" className={styles.sologo1}/>
+           <img src={SolLogo.src} width="200px" className={styles.sologo1}/>
         {/*   <div className="hidden sm:inline w-22 h-22 md:p-2">
            
                       <img src="../../public/044ED15B-68B2-4D5F-AC32-54CD1926C9C0.jpg" width="50px" className=""/>
