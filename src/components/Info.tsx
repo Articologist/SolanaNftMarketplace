@@ -1,5 +1,5 @@
 import React from "react";
-import infoimage from "../../public/nft2.png";
+import infoimage from "../../public/mstile-144x144.png";
 import styles from "../styles/diamond.module.css"
 import Heading from "./Heading";
 // Collectible items, Music and media, Gaming,Sports Moments
