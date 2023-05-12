@@ -44,21 +44,21 @@ export const AppBar: FC = (props) => {
             <Link href="/">
               <a className="btn btn-ghost btn-sm rounded-btn">Home</a>
             </Link>
-            <Link href="/checkwallet">
+           {/* <Link href="/checkwallet">
               <a className="btn btn-ghost btn-sm rounded-btn">Check Wallet</a>
-            </Link>
-            <Link href="/display">
+            </Link> */}
+           {/* <Link href="/display">
               <a className="btn btn-ghost btn-sm rounded-btn">Display NFT</a>
-            </Link>
+            </Link> */}
             <Link href="/explore">
               <a className="btn btn-ghost btn-sm rounded-btn">Explore</a>
             </Link>
-            <Link href="/candymachine">
+            {/* <Link href="/candymachine">
               <a className="btn btn-ghost btn-sm rounded-btn">Candy Machine</a>
-            </Link>
-            <Link href="/soluno">
+            </Link> */}
+           {/* <Link href="/soluno">
               <a className="btn btn-ghost btn-sm rounded-btn">SolUNO</a>
-            </Link>
+            </Link> */}
           </div>
         </div>
 
