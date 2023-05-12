@@ -64,7 +64,7 @@ export const FetchRariableNfts: FC = () => {
                                             Buy
                                         </button>
                                 {/* --Buy Button java_onclick */}
-                                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
+                                 {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
                                     <div className="flex justify-center ">
                                         <button
                                             className="px-8 btn animate-pulse bg-gradient-to-r from-[#9945FF] to-[#14F195] hover:from-pink-500 hover:to-yellow-500 ..."
@@ -78,7 +78,7 @@ export const FetchRariableNfts: FC = () => {
                                             <div className={styles.nftinfoname}> {nft?.blockchain}  </div>
 
                                         </div>
-                                    </div>
+                                    </div> */}
                                     
 
                                 </div>
