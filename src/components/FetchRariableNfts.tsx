@@ -16,7 +16,7 @@ export const FetchRariableNfts: FC = () => {
     const getNftData = async () => {
         const response = await fetch(
             
-            "https://api.rarible.org/v0.1/items/byOwnerWithOwnership?owner=ETHEREUM%3A0xFA5b602B211D4CB638254920fD6A79A5C8A7C7Cb"
+            "https://api.rarible.org/v0.1/items/byOwner?blockchains=POLYGON&blockchains=ETHEREUM&owner=ETHEREUM%3A0xFA5b602B211D4CB638254920fD6A79A5C8A7C7Cb"
         );
         const data = await response.json();
         setNfts(data.items);
