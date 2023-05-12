@@ -35,19 +35,19 @@ export const HomeView: FC = ({ }) => {
         <div className="md:hero mx-auto p-4">
           <div className="md:hero-content flex flex-col">
             <h1 className="text-center text-5xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#000000] to-[#336699]">
-              Welcome to Audio Documents{" "}
+              Audio Documents{" "}
               <span>
                 <Typewriter
                   options={{
                     autoStart: true,
-                    loop: false,
+                    loop: true,
                   }}
                   onInit={(typewriter) => {
                     typewriter
-                      .typeString("World!")
+                      .typeString("Distributed ledger")
                       .pauseFor(2000)
                       .deleteAll()
-                      .typeString("Explore, Create or Buy")
+                      .typeString("Discover, Pay-Plug & Play")
                       .pauseFor(2000)
                       .deleteAll()
                       .start();
