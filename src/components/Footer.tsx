@@ -10,7 +10,7 @@ export const Footer: FC = () => {
                     <img src={SolLogo.src} width="25px" height="25px" className={styles.sologo}/>
                                       </div>
                 <div className="max-w-md mx-auto sm:pl-12 grid-flow-col gap-4 text-center">
-
+                        <img src="../../public/512.png" width="25" height="25" /> | <img src="../../public/512.png" width="25" height="25" /> | <img src="../../public/512.png" width="25" height="25" />
                 </div>
                 <div className="grid-flow-col gap-4 text-center pr-2">
                     <div>
