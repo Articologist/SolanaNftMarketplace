@@ -7,7 +7,7 @@ import Heading from "./Heading";
 
 const Info = () => {
     return (
-        <div className="mt-40 ">
+       <!-- <div className="mt-40 ">
            
             <Heading title={"More than art... "} /> 
             <div className="container mx-auto mt-2">
@@ -64,7 +64,7 @@ const Info = () => {
 
                 </div>
             </div>
-        </div>
+        </div> -->
 
 
     );
