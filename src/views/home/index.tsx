@@ -34,7 +34,7 @@ export const HomeView: FC = ({ }) => {
       <div className={styles.centered}>
         <div className="md:hero mx-auto p-4">
           <div className="md:hero-content flex flex-col">
-            <h1 className="text-center text-5xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#9945FF] to-[#14F195]">
+            <h1 className="text-center text-5xl md:pl-12 font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#000000] to-[#336699]">
               Welcome to Audio Documents{" "}
               <span>
                 <Typewriter
@@ -63,7 +63,7 @@ export const HomeView: FC = ({ }) => {
               }}
             >
               <button
-                className="px-12 m-2 btn animate-pulse bg-gradient-to-r from-[#9945FF] to-[#14F195] hover:from-pink-500 hover:to-yellow-500 ..."
+                className="px-12 m-2 btn animate-pulse bg-gradient-to-r from-[#000000] to-[#336699] hover:from-red-500 hover:to-yellow-500 ..."
 
               >
                 Explore
