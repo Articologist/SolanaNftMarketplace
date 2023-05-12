@@ -10,6 +10,8 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     background: #336699;
     background: #ffffff;
+    color: #336699;
+
 }
 
 a {
@@ -24,6 +26,8 @@ a {
 /* example: override wallet button style */
 .wallet-adapter-button:not([disabled]):hover {
   background-color: #707070;
+  color: #336699;
+
 }
 
 img {
