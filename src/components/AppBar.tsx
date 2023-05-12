@@ -3,7 +3,7 @@ import Link from "next/link"
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui"
 import { useAutoConnect } from "../contexts/AutoConnectProvider"
 import NetworkSwitcher from "./NetworkSwitcher"
-import SolLogo from "../../public/audocs-label-logo-2014-open.png"
+/* import SolLogo from "../../public/audocs-label-logo-2014-open.png" */
 import styles from "../styles/custom.module.css"
 
 export const AppBar: FC = (props) => {
@@ -29,7 +29,7 @@ export const AppBar: FC = (props) => {
               ></path>
             </svg>
           </label>
-          /* <img src={SolLogo.src} width="50px" className={styles.sologo1}/> */
+          {/* <img src={SolLogo.src} width="50px" className={styles.sologo1}/> */}
           <div className="hidden sm:inline w-22 h-22 md:p-2">
            
                       <img src="https://www.audiodocuments.com/ws/media-library/916ae0cd8d964918a36cbf0671257b36/audiodocs-logo22.jpg" width="50px" className=""/>
