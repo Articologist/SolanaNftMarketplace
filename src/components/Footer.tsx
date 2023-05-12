@@ -11,7 +11,7 @@ export const Footer: FC = () => {
                                       </div>
                 <div className="max-w-md mx-auto sm:pl-12 grid-flow-col gap-4 text-center">
                     <a>
-                        <img src="../../public/mstile-310x310.png" width="25px" height="25px" />
+                        <img src="../../public/512.png" width="25" height="25" />
                     </a>
                     <a>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-current">
