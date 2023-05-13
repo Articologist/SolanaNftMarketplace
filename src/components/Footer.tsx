@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import styles from "../styles/custom.module.css"
-import SolLogo from "../../public/mstile-144x144.png"
+import SolLogo from "../../public/mstile-310x310.png"
 
 export const Footer: FC = () => {
     return (
@@ -19,11 +19,11 @@ export const Footer: FC = () => {
                         </p>
                         <a
                             rel="noreferrer"
-                            href="https://www.audocs.com/"
+                            href="https://www.audi0.agency/"
                             target="_blank"
                             className="text-black text-base font-bold hover:text-primary-dark transition-all duration-200"
                         >
-                            Audocs
+                            audi0
                         </a>
                     </div>
                 </div>
