@@ -60,7 +60,7 @@ export const FetchRariableNfts: FC = () => {
                                                                           <div className={styles.nftinfoname}> {nft?.bestSellOrder?.active}  </div>
 
                                <button
-                                            className="px-8 btn animate-pulse bg-gradient-to-r from-[#9945FF] to-[#14F195] hover:from-pink-500 hover:to-yellow-500 ...">
+                                            className="px-8 btn btn-outline-success animate-pulse bg-gradient-to-r from-[#ffffff] to-[#336699]">
                                             <a href="https://chat.blockscan.com/index?a=0xFA5b602B211D4CB638254920fD6A79A5C8A7C7Cb">
                                             Chat </a>
                                         </button>
