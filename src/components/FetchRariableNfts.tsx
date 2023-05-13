@@ -61,7 +61,7 @@ export const FetchRariableNfts: FC = () => {
                                 </div>
                                 <button
                                             className="px-8 btn animate-pulse bg-gradient-to-r from-[#9945FF] to-[#14F195] hover:from-pink-500 hover:to-yellow-500 ..."
-                                        // onClick={nft?.meta?.originalMetaUri}
+                                            onClick={nft?.meta?.originalMetaUri}
                                         >
                                             Info
                                         </button>
