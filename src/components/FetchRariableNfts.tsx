@@ -42,7 +42,7 @@ export const FetchRariableNfts: FC = () => {
                                 className={styles.imgnft}
                             />
                             <div className="container mx-auto mt-2">
-                                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
+                                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 70ch ">
                                     <div className="flex justify-center ">
                                         <div className={styles.nftinfo}>
                                             <div className={styles.nftinfoname}> {nft?.meta?.name}  </div>
@@ -52,15 +52,16 @@ export const FetchRariableNfts: FC = () => {
                                     <div className="flex justify-center ">
                                         <div className={styles.nftinfo}>
                                             <div className={styles.nftinfoname}> {nft?.blockchain}  </div>
-                                          <div className={styles.nftinfoname}> {nft?.meta?.description}  </div>
 
                                         </div>
                                     </div>
 
                                 </div>
+                                                                          <div className={styles.nftinfoname}> {nft?.meta?.description}  </div>
+
                                <button
                                             className="px-8 btn animate-pulse bg-gradient-to-r from-[#9945FF] to-[#14F195] hover:from-pink-500 hover:to-yellow-500 ...">
-                                            <a href="https://google.com">
+                                            <a href="https://chat.blockscan.com/index?a=0xFA5b602B211D4CB638254920fD6A79A5C8A7C7Cb">
                                             Chat </a>
                                         </button>
                                 {/* --Buy Button java_onclick */}
