@@ -68,8 +68,7 @@ export const FetchRariableNfts: FC = () => {
                                  <button className="px-8 btn btn-sm btn-outline-success animate-pulse bg-gradient-to-r from-[#ffffff] to-[#ffffff] {styles.nftinfoname}"
                                             onClick={nft?.content?.url}>Buy</button>
                                  
-                                <button className="px-8 btn btn-sm btn-outline-success animate-pulse bg-gradient-to-r from-[#ffffff] to-[#ffffff]"
-                                        onClick={() => {styles.nftinfoname}>{nft?.content?.url}</button>
+                                        // onClick={() => {styles.nftinfoname}>{nft?.content?.url}</button>
                                    
 
 
