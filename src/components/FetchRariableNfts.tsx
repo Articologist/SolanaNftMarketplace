@@ -65,7 +65,7 @@ export const FetchRariableNfts: FC = () => {
                                             Chat </a></button>
                                 
                                  <button className="px-8 btn btn-sm btn-outline-success animate-pulse bg-gradient-to-r from-[#ffffff] to-[#ffffff]"
-                                        <a href="nft?.content?.url" target="_blank">Buy</a></button>
+                                        <a href="#" target="_blank">Buy</a></button>
                                  
                                         {/*  onClick={() => {nft?.content?.url}</button> */}
                                    
