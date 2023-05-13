@@ -57,7 +57,7 @@ export const FetchRariableNfts: FC = () => {
                                     </div>
 
                                 </div>
-                                                                          <div className={styles.nftinfoname}> {nft?.meta?.description}  </div>
+                                                                          <div className={styles.nftinfoname}> {nft?.bestSellOrder?.active}  </div>
 
                                <button
                                             className="px-8 btn animate-pulse bg-gradient-to-r from-[#9945FF] to-[#14F195] hover:from-pink-500 hover:to-yellow-500 ...">
