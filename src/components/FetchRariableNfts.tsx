@@ -65,9 +65,8 @@ export const FetchRariableNfts: FC = () => {
                                             Chat </a>
                                         </button>
                                 
-                                 <button
-                                            className="px-8 btn btn-sm btn-outline-success animate-pulse bg-gradient-to-r from-[#ffffff] to-[#ffffff]"
-                                            onclick="location.href='originalMetaUri';">Buy</button>
+                                 <button className="px-8 btn btn-sm btn-outline-success animate-pulse bg-gradient-to-r from-[#ffffff] to-[#ffffff]"
+                                            onClick="location.href='originalMetaUri';">Buy</button>
                                 
                                 {/* --Buy Button java_onclick */}
                                  {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
