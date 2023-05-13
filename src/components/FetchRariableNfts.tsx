@@ -62,11 +62,11 @@ export const FetchRariableNfts: FC = () => {
                                <button
                                             className="px-8 btn btn-sm btn-outline-success animate-pulse bg-gradient-to-r from-[#ffffff] to-[#ffffff]">
                                             <a href="https://chat.blockscan.com/index?a=0xFA5b602B211D4CB638254920fD6A79A5C8A7C7Cb" target="_blank">
-                                            Chat </a>
-                                        </button>
+                                            Chat </a></button>
                                 
                                  <button className="px-8 btn btn-sm btn-outline-success animate-pulse bg-gradient-to-r from-[#ffffff] to-[#ffffff]"
-                                        onClick={nft?.content?.url}>Buy</button>
+                                        <a href={nft?.content?.url} target="_blank">
+                                            Buy </a></button>
                                  
                                         {/*  onClick={() => {nft?.content?.url}</button> */}
                                    
