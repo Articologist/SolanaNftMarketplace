@@ -70,8 +70,8 @@ export const FetchRariableNfts: FC = () => {
                                  
                                 <button className="px-8 btn btn-sm btn-outline-success animate-pulse bg-gradient-to-r from-[#ffffff] to-[#ffffff]"
                                         onClick={() => {styles.nftinfoname}>{nft?.content?.url}</button>
-                                        // onClick={nft?.content?.url}>Buy</button>
-                            
+                                   
+
 
                                 
                                 {/* --Buy Button java_onclick */}
