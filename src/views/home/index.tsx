@@ -45,10 +45,10 @@ export const HomeView: FC = ({ }) => {
                   }}
                   onInit={(typewriter) => {
                     typewriter
-                      .typeString("Distributed ledger")
+                      .typeString("Audio Documents")
                       .pauseFor(2000)
                       .deleteAll()
-                      .typeString("Discover, Pay-Plug & Play")
+                      .typeString("Audocs, is")
                       .pauseFor(2000)
                       .deleteAll()
                       .start();
@@ -59,15 +59,15 @@ export const HomeView: FC = ({ }) => {
 
           <Link
               href={{
-                pathname: '/explore',
-                query: { name: 'explore' },
+                pathname: 'https://audocs.com',
+                query: { name: 'AUDOCS' },
               }}
             >
               <button
                 className="px-12 m-2 btn animate-pulse bg-gradient-to-r from-[#000000] to-[#336699] hover:from-red-500 hover:to-yellow-500 ..."
 
               >
-                Explore
+                AUDOCS
               </button>
             </Link>
           </div>
