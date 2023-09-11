@@ -14,7 +14,7 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
     return (
         <>
           <Head>
-            <title>Audocs Nft Marketplace</title>
+            <title>Audocs Landing</title>
           </Head>
 
           <ContextProvider>
