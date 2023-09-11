@@ -4,7 +4,6 @@ import Link from "next/link"
 
 // Wallet
 import { useWallet, useConnection } from "@solana/wallet-adapter-react"
-import apiKey: "53903731-3032-44c7-85c4-018be070c38f"
 
 
 // Store
