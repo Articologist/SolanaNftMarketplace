@@ -11,7 +11,7 @@ export const ExploreView: FC = ({ }) => {
             <h1 className="text-center text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#000000] to-[#336699]">
             {/*  Explore audi0 Nfts */}
             </h1>
-<iframe src="https://www.audocs.com/wallet/" title="wallet"></iframe>
+<iframe src="https://www.audocs.com/wallet/" height="1200" width="100%" title="wallet"></iframe>
 
             {/* CONTENT GOES HERE */}
             <div className="text-center">
