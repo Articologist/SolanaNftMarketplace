@@ -45,10 +45,10 @@ export const HomeView: FC = ({ }) => {
                   }}
                   onInit={(typewriter) => {
                     typewriter
-                      .typeString("Audio Documents")
+                      .typeString("IS")
                       .pauseFor(2000)
                       .deleteAll()
-                      .typeString("Audocs, is")
+                      .typeString("AUDOCS")
                       .pauseFor(2000)
                       .deleteAll()
                       .start();
@@ -60,7 +60,7 @@ export const HomeView: FC = ({ }) => {
           <Link
               href={{
                 pathname: 'https://audocs.com',
-                query: { name: 'AUDOCS' },
+                query: { name: 'VISIT' },
               }}
             >
               <button
