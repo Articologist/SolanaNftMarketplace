@@ -11,7 +11,7 @@ const Home: NextPage = (props) => {
         <title>Audio Documents</title>
         <meta
           name="description"
-          content="Audocs NFT Marketplace"
+          content="Audocs Landing"
         />
       </Head>
       <HomeView />
