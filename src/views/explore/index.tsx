@@ -14,7 +14,7 @@ export const ExploreView: FC = ({ }) => {
             
             {/* CONTENT GOES HERE */}
             <div className="text-center">
-              <FetchRariableNfts />
+            {/*  <FetchRariableNfts /> */}
             </div>
           </div>
         </div>
