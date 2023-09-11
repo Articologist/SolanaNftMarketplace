@@ -1,5 +1,6 @@
 import { FC, useEffect, useState } from "react"
 import styles from "../styles/custom.module.css"
+apiKey: "53903731-3032-44c7-85c4-018be070c38f"
 
 export const FetchRariableNfts: FC = () => {
 
