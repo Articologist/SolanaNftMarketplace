@@ -57,7 +57,7 @@ export const HomeView: FC = ({ }) => {
               </span>
             </h1>
 
-            <Link
+          <!--  <Link
               href={{
                 pathname: '/explore',
                 query: { name: 'explore' },
@@ -69,7 +69,7 @@ export const HomeView: FC = ({ }) => {
               >
                 Explore
               </button>
-            </Link>
+            </Link> -->
           </div>
         </div>
       </div>
