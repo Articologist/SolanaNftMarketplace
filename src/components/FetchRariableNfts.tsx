@@ -15,7 +15,6 @@ export const FetchRariableNfts: FC = () => {
 
     const getNftData = async () => {
         const response = await fetch(
-            apiKey: "53903731-3032-44c7-85c4-018be070c38f"
             "https://api.rarible.org/v0.1/items/byOwner?blockchains=ETHEREUM&owner=ETHEREUM%3A0xFA5b602B211D4CB638254920fD6A79A5C8A7C7Cb"
         );
         const data = await response.json();
